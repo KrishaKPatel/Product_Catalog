@@ -10,13 +10,13 @@ Containerization: Docker & Docker Compose
 
 **Project Structure**
 Product_Catalog/
-├── frontend/              # React application
-│   └── Dockerfile
-├── productcatalog/        # Spring Boot backend
-│   └── Dockerfile
-├── docker-compose.yml     # Orchestrates the containers
-├── package_lock.json
-└── README.md
+   frontend/              # React application
+      Dockerfile
+   productcatalog/        # Spring Boot backend
+      Dockerfile
+   docker-compose.yml     # Orchestrates the containers
+   package_lock.json
+   README.md
 
 **Prerequisites**
 To run this project on your machine, install:
