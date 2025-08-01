@@ -3,10 +3,11 @@
 A full-stack product catalog application built with React, Spring Boot, and SQL Server. Users can view a list of products, see detailed info, and add new products via a clean, user-friendly interface.
 
 **Tech Stack**
-Frontend: React (Vite)
-Backend: Spring Boot (Java) + Hibernate
-Database: SQL Server (via Docker)
-Containerization: Docker & Docker Compose
+
+1. Frontend: React (Vite)
+2. Backend: Spring Boot (Java) + Hibernate
+3. Database: SQL Server (via Docker)
+4. Containerization: Docker & Docker Compose
 
 **Prerequisites**
 To run this project on your machine, install:
