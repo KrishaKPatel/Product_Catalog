@@ -8,16 +8,6 @@ Backend: Spring Boot (Java) + Hibernate
 Database: SQL Server (via Docker)
 Containerization: Docker & Docker Compose
 
-**Project Structure**
-Product_Catalog/
-   frontend/              # React application
-      Dockerfile
-   productcatalog/        # Spring Boot backend
-      Dockerfile
-   docker-compose.yml     # Orchestrates the containers
-   package_lock.json
-   README.md
-
 **Prerequisites**
 To run this project on your machine, install:
 1. Docker Desktop
