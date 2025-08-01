@@ -1,0 +1,113 @@
+.container1 {
+  padding: 2rem;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Grid layout */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* Card styling */
+.product-card {
+  width: 90%;
+  padding: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+  background-color: #90d4bd; /* default */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Alternate background */
+.product-card:nth-child(even) {
+  background-color: #ef7c8e;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+}
+
+.product-field {
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.description {
+  color: #469fab;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.description:hover {
+  text-decoration: underline;
+}
+
+/* Modal styling */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-card {
+  background-color: white;
+  padding: 2rem;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.modal-card h3 {
+  margin-top: 0;
+}
+
+.modal-card p {
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+.close-btn {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #444;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

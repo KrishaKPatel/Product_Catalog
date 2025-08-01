@@ -1,0 +1,122 @@
+.add-product-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+  background-color: #FAE8E0;
+}
+
+/* Link to home */
+.home-link {
+  align-self: flex-start;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.home-link a {
+  color: #EF7C8E;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.home-link a:hover {
+  color: #91d4be;
+}
+
+
+.add-product-container h2 {
+  margin-bottom: 25px;
+  color: #333;
+  text-align: center;
+}
+
+/* Form styles */
+form label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #444;
+}
+form :placeholder-shown{
+    color: #6dc7d3;
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #90d4bd;
+}
+
+/* Submit button */
+form button {
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #90d4bd;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+form button:hover {
+ box-shadow: 0 0 10px #90d4bd;
+  color: #000;
+}
+.success-message-container {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.success-text {
+  color: #6dc7d3;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.custom-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.custom-btn.green {
+  background-color: #90d4bd;
+}
+
+.custom-btn.blue {
+  background-color: #6dc7d3;
+}
+
+.custom-btn.dark {
+  background-color: #EF7C8E;
+}
+
+.custom-btn:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+}

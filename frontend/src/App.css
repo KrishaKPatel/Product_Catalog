@@ -1,0 +1,83 @@
+/* Full browser height & dark background */
+body, html {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-color: #FAE8E0; 
+  color: black; 
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+#root{
+  margin: auto;
+  width: -webkit-fill-available;
+}
+
+/* Centering wrapper */
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Take full vertical space */
+  text-align: center;
+}
+
+/* Heading style */
+.home-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+/* Buttons container */
+.home-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Common button style */
+.custom-btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* Button colors */
+.custom-btn.blue {
+  background-color: #6dc7d3;
+}
+.custom-btn.green {
+  background-color: #90d4bd;
+}
+.custom-btn.dark {
+  background-color: #EF7C8E;
+}
+
+/* Hover effects */
+.custom-btn:hover {
+  transform: translateY(-3px);
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+/* Optional: subtle glow on hover */
+.custom-btn:hover.blue {
+  box-shadow: 0 0 10px #6dc7d3;
+  color: #000;
+}
+.custom-btn:hover.green {
+  box-shadow: 0 0 10px #90d4bd;
+  color: #000;
+}
+.custom-btn:hover.dark {
+  box-shadow: 0 0 10px #EF7C8E;
+  color: #000;
+}
