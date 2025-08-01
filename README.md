@@ -38,3 +38,6 @@ cd productcatalog
 cd frontend
 npm install
 npm run test
+
+**Video Link**
+https://www.youtube.com/watch?v=VpdIX9jaalE
