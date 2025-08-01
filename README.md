@@ -15,6 +15,8 @@ To run this project on your machine, install:
 2. Git (optional, to clone the repo)
 
 **How to run the APP**
+
+
 Step 1: Clone the Repository
 git clone https://github.com/KrishaKPatel/Product_Catalog.git
 
